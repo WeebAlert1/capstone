@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Watch List</h1>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="list.html">List</a>
+        </nav>
+    </header>
+    <main>
+
+    <form>
+        <p id="txtTitle">Add a Show</p>
+        <input 
+            type='text'
+            id="name"
+            placeholder="Show name"/>
+        <input 
+            type='text'
+            id="img"
+            placeholder='Paste an image URL'/>
+        <button>add movie</button>
+    </form>
+
+    <section id="houses-container"></section>
+
+    </main>
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
